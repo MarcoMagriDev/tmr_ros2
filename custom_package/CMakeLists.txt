@@ -45,6 +45,7 @@ ament_target_dependencies(tm_send_command
 add_executable(sub_img src/sub_img.cpp)
 ament_target_dependencies(sub_img
 "rclcpp"
+"rclcpp_components"
 "sensor_msgs"
 "std_msgs"
 "OpenCV"
